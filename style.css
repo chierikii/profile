@@ -1,0 +1,105 @@
+/* Colors and fonts
+body {
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  color: #2406ea;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+h1, h2,{
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #f397ef;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+.card{
+  width: 500px;   /* This sets the width */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.Main_Image{border-radius: 50%; max-width: 60%;
+  height: auto; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+body {
+  color: pink;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  line-height: 1.6;
+  font-weight: 00;
+
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.card{border-top: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-radius: 20px; width: 400px; padding: 30; margin: 30 auto;
+  box-shadow: 50px 10px 30px rgba(0,0,0,.2); text-align: center;}
+
+
+
+#link { color:pink;
+  text-decoration: none;
+font-size: 20px;
+font-family:'Anton', sans-serif;
+  background-color: #6bb0c3;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; border-radius:4px ;
+}
+
+#link:hover{ color: rgb(168, 16, 210);}
+
+.card2 > ul {
+ text-align: center; list-style-type: none;
+}
+
+.card2 li {display: inline-block;}
+
+.card2 li a{text-decoration: none; font-size: 50px; padding: 30; margin: 30;}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
